@@ -13,7 +13,14 @@ knit        : slidify::knit2slides
 
 ## Introduction
 
-## Rivel Level dependent on Cumulative Rainfall
+This Shiny application is to determine the correlation between rain fall volume (measured in millimeters) and river water level (measured in meters).  The river water level will provide an early warning to potential flooding of the area.
+
+The application provides
+
+- A graphical visualization of the relationship between rain fall and river water level.
+- A correlation index between rainfall and river water level using the Spearman Rank Index.
+
+The rain fall measured can be from cumulative number of days, ranging from single day up to 10 days.
 
 --- .class #id  
 
@@ -40,20 +47,22 @@ corr()
 
 Using this information, this Shiny application can be extended to predict whether a flood will occur, from the cumulative rain fall volume, as it can be inferred from potentiatl breaches of the danger level of the river level.
 
+<!--
 --- .class #id  
+-->
 
 --- &radio
-## Feedback
+## Quiz
 
-What is 1 + 1?
+How many cumulative days of rain fall measurement has the best correlation index?
 
-1. 1
-2. _2_
-3. 3
-4. 4
+1. 2
+2. _3_
+3. 5
+4. 8
 
 *** .hint
-This is a hint
+Use the slider on the application and observe the correlation index at the bottom of the main panel.
 
 *** .explanation
-This is an explanation
+If you move the slider to 3, the correlation index should be 0.118xxx, which is the highest value.

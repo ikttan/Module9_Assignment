@@ -49,7 +49,16 @@
     <h2>Introduction</h2>
   </hgroup>
   <article data-timings="">
-    <h2>Rivel Level dependent on Cumulative Rainfall</h2>
+    <p>This Shiny application is to determine the correlation between rain fall volume (measured in millimeters) and river water level (measured in meters).  The river water level will provide an early warning to potential flooding of the area.</p>
+
+<p>The application provides</p>
+
+<ul>
+<li>A graphical visualization of the relationship between rain fall and river water level.</li>
+<li>A correlation index between rainfall and river water level using the Spearman Rank Index.</li>
+</ul>
+
+<p>The rain fall measured can be from cumulative number of days, ranging from single day up to 10 days.</p>
 
   </article>
   <!-- Presenter Notes -->
@@ -87,31 +96,28 @@
 
 <p>Using this information, this Shiny application can be extended to predict whether a flood will occur, from the cumulative rain fall volume, as it can be inferred from potentiatl breaches of the danger level of the river level.</p>
 
+<!--
+--- .class #id  
+-->
+
   </article>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="class" id="id" style="background:;">
-  <article data-timings="">
-    
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-5" style="background:;">
+<slide class="" id="slide-4" style="background:;">
   <hgroup>
-    <h2>Feedback</h2>
+    <h2>Quiz</h2>
   </hgroup>
   <article data-timings="">
     
 <div class="quiz quiz-single well ">
-  <p>What is 1 + 1?</p>
+  <p>How many cumulative days of rain fall measurement has the best correlation index?</p>
 
 <ol>
-<li>1</li>
-<li><em>2</em></li>
-<li>3</li>
-<li>4</li>
+<li>2</li>
+<li><em>3</em></li>
+<li>5</li>
+<li>8</li>
 </ol>
 
   <button class="quiz-submit btn btn-primary">Submit</button>
@@ -120,11 +126,11 @@
   <button class="quiz-clear btn btn-danger">Clear</button>
   
   <div class="quiz-hint">
-  <p>This is a hint</p>
+  <p>Use the slider on the application and observe the correlation index at the bottom of the main panel.</p>
 
 </div>
 <div class="quiz-explanation">
-  <p>This is an explanation</p>
+  <p>If you move the slider to 3, the correlation index should be 0.118xxx, which is the highest value.</p>
 
 </div>
 </div>
@@ -156,14 +162,8 @@
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=4 title='NA'>
+        data-slide=4 title='Quiz'>
          4
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=5 title='Feedback'>
-         5
       </a>
     </li>
   </ul>
