@@ -22,6 +22,3 @@ You will be presented with 3 options for the input on the left hand side panel o
 # Output of Application
 
 There will be a graphical plot depending on the selection for the first input variable.  Below that, there will be a Spearman Rank Correlation Index between the cumulative rain fall against the river water level.
-
-
-# Output of Shiny Application
